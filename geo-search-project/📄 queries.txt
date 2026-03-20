@@ -1,0 +1,99 @@
+    • Recherche par Rayon (spatial.withinDistance)
+
+
+    • Tous les établissements dans un rayon de 500m :
+CALL spatial.withinDistance('fes_layer', point({latitude:34.033, longitude:-4.999}), 0.5) 
+YIELD node RETURN node.name, node.amenity;
+
+    • Cliniques uniquement dans un rayon de 1km :
+CALL spatial.withinDistance('fes_layer', point({latitude:34.033, longitude:-4.999}), 1.0) 
+YIELD node WHERE node.amenity = 'clinic' RETURN node.name, node.street;
+
+    • Hôpitaux dans un rayon de 3km pour les urgences :
+CALL spatial.withinDistance('fes_layer', point({latitude:34.033, longitude:-4.999}), 3.0) 
+YIELD node WHERE node.amenity = 'hospital' RETURN node.name, node.location;
+
+    • Établissements sur l'avenue principale (ex: FAR) à moins de 800m :
+CALL spatial.withinDistance('fes_layer', point({latitude:34.034, longitude:-5.002}), 0.8) 
+YIELD node WHERE node.street CONTAINS 'Armée Royale' RETURN node.name, node.street;
+
+    • Compter les types d'établissements dans un rayon de 2km :
+CALL spatial.withinDistance('fes_layer', point({latitude:34.033, longitude:-4.999}), 2.0) 
+YIELD node RETURN node.amenity, count(*) AS nombre;
+
+
+    • Recherche de Proximité (spatial.closest):
+    • L'établissement de santé le plus proche de l'utilisateur :
+CALL spatial.closest('fes_layer', point({latitude:34.033, longitude:-4.999}), 1) 
+YIELD node RETURN node.name, node.amenity;
+      
+    • Les 5 cliniques les plus proches :
+CALL spatial.closest('fes_layer', point({latitude:34.033, longitude:-4.999}), 5) 
+YIELD node WHERE node.amenity = 'clinic' RETURN node.name, node.location;
+
+Les 3 hôpitaux les plus proches du centre-ville :
+CALL spatial.closest('fes_layer', point({latitude:34.039, longitude:-5.004}), 3) 
+YIELD node WHERE node.amenity = 'hospital' RETURN node.name, node.street;
+
+    • Requêtes Avancées et Analyse:
+Établissements voisins de la "Clinique Al karaouiyine" (rayon 400m) :
+MATCH (h:HealthcareFacility {name: 'Clinique Al karaouiyine'})
+CALL spatial.withinDistance('fes_layer', h.location, 0.4) 
+YIELD node WHERE node <> h
+RETURN node.name, node.amenity;
+
+    • Trouver les établissements sans nom répertorié dans un rayon de 1.5km :
+CALL spatial.withinDistance('fes_layer', point({latitude:34.033, longitude:-4.999}), 1.5) 
+YIELD node WHERE node.name IS NULL 
+RETURN node.osm_id, node.location;
+
+    • Trouver le voisin le plus proche pour chaque hôpital :
+MATCH (h:HealthcareFacility) WHERE h.amenity = 'hospital'
+CALL spatial.closest('fes_layer', h.location, 2) 
+YIELD node WHERE node <> h
+RETURN h.name AS hopital, node.name AS voisin_proche;
+
+    • Établissements situés à l'ouest (Longitude < -5.0) dans un rayon de 2km :
+CALL spatial.withinDistance('fes_layer', point({latitude:34.033, longitude:-4.999}), 2.0) 
+YIELD node WHERE node.longitude < -5.0
+RETURN node.name, node.longitude;
+
+    • Extraction des coordonnées des 10 points les plus proches pour affichage MAP:
+CALL spatial.closest('fes_layer', point({latitude:34.033, longitude:-4.999}), 10) 
+YIELD node RETURN node.name, node.latitude, node.longitude;
+
+    • Vérifier les données : établissements sans type défini (amenity) dans un rayon de 5km :
+CALL spatial.withinDistance('fes_layer', point({latitude:34.033, longitude:-4.999}), 5.0) 
+YIELD node WHERE NOT EXISTS(node.amenity)
+RETURN node.osm_id;
+
+    • Recherche combinée : Cliniques proches d'un point spécifique avec tri par nom :
+CALL spatial.withinDistance('fes_layer', point({latitude:34.033, longitude:-4.999}), 1.2) 
+YIELD node WHERE node.amenity = 'clinic'
+RETURN node.name ORDER BY node.name ASC;
+
+    • Recherche filtrée par zone géographique (Nord):
+CALL spatial.withinDistance('fes_layer', point({latitude:34.033, longitude:-4.999}), 2.0) 
+YIELD node 
+WHERE node.latitude > 34.033
+RETURN node.name, node.latitude, node.amenity;
+
+    • Calcul de la distance exacte pour les cliniques proches:
+CALL spatial.closest('fes_layer', point({latitude:34.033, longitude:-4.999}), 5) 
+YIELD node 
+WHERE node.amenity = 'clinic'
+RETURN node.name, 
+       point.distance(node.location, point({latitude:34.033, longitude:-4.999})) AS distance_metres
+ORDER BY distance_metres;
+
+    • Identification des données incomplètes les plus proches:
+CALL spatial.closest('fes_layer', point({latitude:34.033, longitude:-4.999}), 3) 
+YIELD node 
+WHERE node.amenity IS NULL
+RETURN node.osm_id, node.location;
+      
+    • Vérifier les données : établissements sans type défini (amenity) dans un rayon de 5km :
+CALL spatial.closest('fes_layer', point({latitude:34.033, longitude:-4.999}), 5) 
+YIELD node 
+WHERE node.name IS NOT NULL
+RETURN node.name, point.distance(node.location, point({latitude:34.033, longitude:-4.999})) AS distance_m;

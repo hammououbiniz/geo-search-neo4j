@@ -1,0 +1,434 @@
+osm_id,name,amenity,street,city,latitude,longitude
+1866502248,Pharmacie Centrale الصيدلية المركزية,pharmacy,Boulevard Mohamed V,Fès,34.036761,-4.9978456
+2328748922,Pharmacie Filali صيدلية فيلالي,pharmacy,AV Obaida ibn El Jarrah,Fès,34.0400364,-5.0057261
+2328748925,Clinique Al karaouiyine,clinic,,rue imam ali fes nouvelle,34.0397083,-5.0046747
+3718016810,Pharmacie Rcif صيدلية الرصيف,pharmacy,,Fès,34.0607842,-4.9730652
+3899915428,Centre hospitalier universitaire Hassan II,hospital,,,34.0036766,-4.9637961
+4606353707,Pharmacie Irchad صيدلية إرشاد,pharmacy,HAY AL WIFAQ RTE AIN SMAEN,Fès,34.0091704,-5.0299565
+4681620692,Pharmacie Basmati صيدلية بسمتي,pharmacy,,Fès,34.0165709,-5.0335195
+4698968089,Pharmacie Lablida صيدلية البليدة,pharmacy,شوارة,Fès ⴼⴰⵙ فاس,34.0665469,-4.9713274
+4711448391,Pharmacie la Tulipe صيدلية لاتوليب,pharmacy,طريق عين السمن Route Aïn Smenقامة بسم الله طريق عين السمن,Fès,34.0155439,-5.0204776
+4711868990,Pharmacie de la Liberté صيدلية الحرية,pharmacy,Place de la Résistance,Fès,34.0452085,-4.9969331
+4711934790,Pharmacie les Palmiers صيدلية النخيل,pharmacy,Avenue Hassan II,Fés,34.0394593,-5.0015078
+4711934894,Pharmacie de France صيدلية فرنسا,pharmacy,Avenue Hassan II,Fès,34.0429619,-4.9987649
+4712385991,Pharmacie l'Amitié صيدلية الصداقة,pharmacy,RUE MED FASSI 221 HAY ADARISSA,Fés,34.014454,-5.0096513
+4712445890,Pharmacie Bouslikhane صيدلية بوسليخن,pharmacy,LOT AL WIFAK AIN SMEN,Fés,34.0094085,-5.0261096
+4712508653,Pharmacie Acima صيدلية أسيما,pharmacy,CENTRE COMMERCIAL ACIMA,Fès,34.0296079,-5.0105717
+4724813489,Pharmacie Echadli صيدلية الشادلي,pharmacy,lotiss anbra S3 45fin rte ain smen fes,Fès,34.0078033,-5.0322131
+4725748199,Pharmacie Allal Ben Abdellah صيدلية علال بن عبد الله,pharmacy,Avenue Allal Ben Abdallah,Fès,34.033564,-5.0069404
+4729539594,Pharmacie du Maroc صيدلية المغرب,pharmacy,BATHA,Fès,34.0604344,-4.9817913
+4730950544,Pharmacie la Criée صيدلية المزاد,pharmacy,11 QUARTIER AL AMANE BENSOUDA,Fès,34.0005071,-5.0434417
+4738031421,Pharmacie Bahja صيدلية البهجة,pharmacy,Boulevard Mohammed 5,Fès,34.0389152,-4.9986734
+4738681626,Pharmacie de la Santé صيدلية الصحة,pharmacy,Avenue Ismailia,Fès,34.0128456,-4.9854532
+4740427422,Pharmacie Idrissi صيدلية الإدريسي,pharmacy,DEBUT HAY SAADA RTE AIN CHKEF,Fès,34.0267254,-5.0034341
+4741642523,Pharmacie Debbagh صيدلية الدباغ,pharmacy,Avenue OUBEIDA IBN JARRAH,Fès,34.0428163,-5.0038728
+4744887621,Pharmacie et Laboratoire Al Amrani صيدلية و مختبر العمراني,pharmacy,Avenue Lalla Meryem شارع للا مريم,Fès,34.0421156,-5.001262
+4746773124,Pharmacie Moulay El Kamel صيدلية مولاي الكامل,pharmacy,Avenue du Prince Heritier champs de course,Fès,34.0365542,-5.0084996
+4746889021,Pharmacie Mimousa صيدلية ميموزة,pharmacy,20 AV . Prince Heritier,Fès فاس,34.0326314,-5.0123203
+4753542728,Pharmacie Zemmouri صيدلية الزموري,pharmacy,RESIDENCE NAKHLA RTE AIN SMEN,Fès,34.0185021,-5.0190467
+4757649122,Centre Belge de rééducation et readaptation,clinic,Avenue Egypte,,34.0446041,-5.0028179
+4757773462,Pharmacie et Laboratoire El Karaouyine صيدلية و مختبر القرويين,pharmacy,Bourmana derb kristiani,Fès,34.0210364,-4.9929013
+4759451623,Pharmacie Jnane Fès صيدلية جنان فاس,pharmacy,rue Akhtal ibn battouta,Fés,34.0304772,-5.0051309
+4759495424,Pharmacie Oudghiri صيدلية الودغيري,pharmacy,Rue Al Baroudi,Fès,34.030867,-5.0078186
+4763995654,Pharmacie Assalama صيدلية السلامة,pharmacy,Rue Jordani,Fès,34.0451989,-5.0029903
+4772565121,Pharmacie Route d'Immouzer صيدلية طريق إيموزار,pharmacy,Avenue Roi Houssaine,Fès,34.0196299,-4.9959536
+4774537683,Pharmacie de l'Hôpital صيدلية المستشفى,pharmacy,Rue Mohammed Diouri زنقة محمد الديوري,Fès,34.0392486,-4.9936096
+4774547551,Clinique Slaiki,clinic,9 rue abdelaziz benchekroun fes,,34.0390525,-4.9937218
+4778565322,Clinique de fez,clinic,Rue Abdesslam Serghini,rue abdessalam serghini,34.0432026,-4.9965422
+4788557121,Pharmacie Moulay Driss صيدلية مولاي ادريس,pharmacy,lot kenza chapm course,Fès,34.0336413,-5.0189835
+4788557323,Pharmacie le Palais صيدلية القصر,pharmacy,HAY TARIK A COTE PALAIS SANABIL,Fès,34.0307431,-5.0229027
+4797223421,Pharmacie Nouzha صيدلية النزهة,pharmacy,Route Ain Chkef,Fés,34.0117154,-5.0108792
+4801102022,Pharmacie El Fath صيدلية الفتح,pharmacy,Avenue Mohamed Es Slaoui,Fès,34.0374402,-5.0003795
+4801209322,Pharmacie la Croix Verte صيدلية لاكروا فيرت,pharmacy,Boulevard Mohammed V شارع محمد الخامس,BV MOHAMED 5,34.0385288,-4.9981613
+4802070122,Pharmacie Marjane صيدلية مرجان,pharmacy,SUPER MARCHE MARJANE,Fès,34.0492382,-5.0355052
+4803244621,Pharmacie Al Ichrak صيدلية الإشراق,pharmacy,367 AHMED BALAFEJ ADARISSA,Fès,34.0167606,-5.0109578
+4803711989,Pharmacie Al Mernissi صيدلية المرنيسي,pharmacy,Champs de Cours Dokkarat,Fès,34.0392401,-5.0129692
+4805354921,Pharmacie Masjid Ataqwa صيدلية مسجد التقوى,pharmacy,RUE AL AMIR RTE AYN CHKEF,Fès,34.0194622,-5.0056751
+4805418523,Pharmacie Sounni صيدلية السني,pharmacy,ERAC HAY AL ADARISSA,Fès,34.0182594,-5.0079836
+4805680322,Pharmacie Bennani صيدلية بناني,pharmacy,HAY TARIK I,Fès,34.032488,-5.02417
+4807116122,Pharmacie Arrachad صيدلية الرشاد,pharmacy,Hay Griyou Zouagha Haute,Fès,34.0156004,-5.026931
+4807118621,Pharmacie Farah صيدلية فرح,pharmacy,Avenue Ibn Al Atir شارع ابن الأثير,Fès,34.0221038,-5.0122016
+4807118622,Pharmacie Belbacha صيدلية بالباشة,pharmacy,,Fès,34.0304648,-5.013688
+4807373024,Pharmacie Moulay Slimane صيدلية مولاي سليمان,pharmacy,RUE SAIN LOUIS RTE AIN CHKAEF,Fès,34.029394,-5.0005704
+4811706021,Pharmacie la Station صيدلية المحطة,pharmacy,,Fès,34.0094418,-5.0456351
+4811862222,Pharmacie Azzahraouayn صيدلية الزهراويين,pharmacy,1 BAB atlas lot N 41 zouagha,Fès,34.0247453,-5.0407415
+4814399221,Pharmacie Imam Ali صيدلية الإمام علي,pharmacy,rue Imam Malik,Fès,34.0423848,-5.006424
+4815220421,Pharmacie Touzani صيدلية التوزاني,pharmacy,Rue Abdellah Guenoun,Fès,34.029135,-5.0265075
+4815250118,Pharmacie Pavlov صيدلية بافلوف,pharmacy,IMM 84 N 3 LOT .DALILA-ADDOHA-ZOUAGHA,Fès,34.0129982,-5.0401436
+4815400180,Pharmacie Bab Ftouh صيدلية باب فتوح,pharmacy,BAB FTOUH,Fès,34.0608412,-4.9664226
+4815416019,Pharmacie Al Ouafae صيدلية الوفاء,pharmacy,LOT 394 NARJISS LOT OUAFAE RTE SEFROU,Fès,34.0112189,-4.9763526
+4815618965,Pharmacie Naima Lahlou صيدلية نعيمة لحلو,pharmacy,,Fès,34.0570103,-4.9905245
+4815669288,Pharmacie Ben Debbab صيدلية بن دباب,pharmacy,ROND POINT KARAOUINE BEN DEBBAB,Fès,34.0638765,-4.9943906
+4815708754,Pharmacie Lwdaya صيدلية لوداية,pharmacy,,Fès ⴼⴰⵙ فاس,34.0697582,-5.0120009
+4815722783,Pharmacie Arrajae صيدلية الرجاء,pharmacy,N 1 RUE MERJA ZOUAGHA,Fès,34.03271,-5.047852
+4816625221,Pharmacie Bouzoubaa صيدلية بوزوبع,pharmacy,,Fès,34.0206795,-5.0270395
+4817715044,Pharmacie El Malhi صيدلية الملحي,pharmacy,HAY TARIK 1 RUE 3,Fès فاس,34.0356746,-5.0245247
+4817730225,Pharmacie El Wardi صيدلية الوردي,pharmacy,hay oued fes,Fès,34.0551533,-5.0329316
+4817763683,Pharmacie Al Mawada صيدلية المودة,pharmacy,Boulevard Karaouine,Fés,34.0067267,-5.0165884
+4817810561,Pharmacie Sahb El Ward صيدلية سهب الورد,pharmacy,5 sehb el ward hors bab ftouh,Fès,34.0543407,-4.9532305
+4817822323,Clinique de l'os et du sport,clinic,Avenue Mohamed es Saoui,,34.0384815,-4.9946723
+4817824057,Pharmacie Al Ghassani صيدلية الغساني,pharmacy,DHAR MEHRAZ BAB EL GHOUL,Fès,34.0403695,-4.9898563
+4817843397,Pharmacie L'IRIS صيدلية الاغيس,pharmacy,19 RUE BIZERT RTE D'IMMOUZER,fés,34.0213738,-4.9984577
+4817921284,Pharmacie Ziat صيدلية الزيات,pharmacy,DREB ZIAT BATHA,Fès,34.0576478,-4.9769857
+4817966862,Pharmacie Saiss صيدلية سايس,pharmacy,14 RUE 1 BLOC PAM BENSOUDA,Fès,34.0326792,-4.9969956
+4818028572,Pharmacie Nahid صيدلية ناهيد,pharmacy,HAY MSELLAH,Fés,34.0633492,-5.0083871
+4822485122,Pharmacie El Attar صيدلية العطار,pharmacy,,Fès,34.0420078,-5.0172347
+4822797821,Pharmacie Amine صيدلية أمين,pharmacy,32 TRIK JDIDA RCIF,Fès,34.0584106,-4.972887
+4823680821,Pharmacie Arssat Zitoun صيدلية عرصة الزيتون,pharmacy,,Fès,33.9916405,-5.042749
+4823696521,Pharmacie Saidi صيدلية سعيدي,pharmacy,178 Olivrie secT 27 Zouagha haut,Fès,33.9942988,-5.0401468
+4825502723,Pharmacie Niama صيدلية نعمة,pharmacy,,Fès,33.9977066,-5.0480324
+4826191124,Pharmacie El Mouahidine صيدلية الموحدين,pharmacy,Avenue des Almohades شارع الموحدين,Fès,34.0427102,-5.0123896
+4830547721,Pharmacie la Bonté صيدلية الطيبة,pharmacy,HAY TARIK 2,Fès,34.0337314,-5.0268101
+4830823521,Pharmacie Chifae صيدلية الشفاء,pharmacy,Avenue des Far route de meknes,Fès,34.0404482,-5.0087851
+4832498324,Pharmacie des FAR صيدلية الجيش الملكي,pharmacy,Avenue des Forces Armées Royales شارع الجيش الملكي,Fès,34.0407699,-5.0166336
+4834354024,Pharmacie Doukkarat صيدلية الدكارات,pharmacy,Avenue des Forces Armées Royales شارع الجيش الملكي,Fès فاس,34.0393502,-5.0217359
+4841546126,Pharmacie Route de Meknès صيدلية طريق مكناس,pharmacy,lot karim amrani doukarat,Fès,34.0395245,-5.0272749
+4841769221,Pharmacie Tazi صيدلية التازي,pharmacy,RTE MEKNES LOTISS LAHBABI N 11 FES,Fès,34.0397879,-5.0313486
+4843629022,Pharmacie Tarik صيدلية طارق,pharmacy,86 HAY TARIK 2 RTE BENSOUDA FES,Fès,34.0281108,-5.0239044
+4843833522,Pharmacie Ait Skattou صيدلية ايت سقاطو,pharmacy,AIT SKATTO HAY SAADA,Fès,34.0260824,-5.0012035
+4845395322,Pharmacie Benjelloun صيدلية بنجلون,pharmacy,HAY TARIK,Fès,34.0268021,-5.0219356
+4854006421,Pharmacie Lalla Soukaina صيدلية للاسكينة,pharmacy,Rue lalla soukaina,Fès,34.0183664,-5.026767
+4855335623,Pharmacie la Lavande صيدلية الخزامى,pharmacy,Rue 2 Hay Rajae Tarik 1,Fès,34.0335369,-5.022362
+4856522726,Clinique El Hitmi,clinic,Abi Daoud,Fès,34.0420918,-5.0116872
+4861633424,Pharmacie du Passage صيدلية المسار,pharmacy,Rue Abdelaziz Boutaleb,Fès,34.0359013,-4.9953162
+4869569771,Pharmacie Boutouil صيدلية بوطويل,pharmacy,Fes eljadid,Fès ⴼⴰⵙ فاس,34.0560401,-4.9870892
+4869596663,Pharmacie Populaire الصيدلية الشعبية,pharmacy,28 BAB JIAF FES JDID,Fès ⴼⴰⵙ فاس,34.0539632,-4.9893255
+4869602270,Pharmacie Louajriyeine صيدلية الوجريين,pharmacy,33 DERB JAMAA NOUVEL MELLAH,Fès ⴼⴰⵙ فاس,34.0522071,-4.9901683
+4869763221,Clinique Dr Boudali,clinic,Rue Omar Al Idrissi,,34.0378938,-4.9939771
+4869893021,Clinique Ben Moussa,clinic,Rue Omar Al Idrissi,87 RUE OMAR EL DRISSI,34.0386401,-4.9934857
+4871949522,Pharmacie Ravin صيدلية الرافان,pharmacy,Rue Omar Al Idrissi,Fès,34.0345554,-4.9938759
+4871952121,Pharmacie Adarissa صيدلية أدارسة,pharmacy,HAY SAADA RTE AIN CHQEF,Fès,34.0215149,-5.0070833
+4883661122,Pharmacie Yassine صيدلية ياسين,pharmacy,Av Saint Louis RTE AIN CHKEF,Fès,34.0158487,-5.0070187
+4885602324,Pharmacie Dhar El Mehraz صيدلية ظهر المهراز,pharmacy,,Fès,34.0369664,-4.9896306
+4887681622,Pharmacie Jnane El Berdai صيدلية جنان البردعي,pharmacy,,Fès ⴼⴰⵙ فاس,34.0349848,-5.0558381
+4894589424,Pharmacie de la Gare صيدلية المحطة,pharmacy,Imam chafai,Fès,34.0448431,-5.0066483
+4894951222,Pharmacie Hay El Anbra صيدلية حي العنبرة,pharmacy,38 AV IBN LKHATIB DERB EL WARD FES,Fès,34.0100955,-5.0352723
+4894951223,Pharmacie Saadi صيدلية السعدي,pharmacy,715 LOTT ALKARAOUINE AIN CHEKEF,Fès,34.0047517,-5.0137715
+4894953823,Pharmacie Ain Amir صيدلية عين عمير,pharmacy,37 rue el flaha hay hassani rte ain chekaf,Fès,34.0026816,-5.004085
+4897372624,Pharmacie Boulevard du Joulane صيدلية شارع الجولان,pharmacy,Rue M'diq,Fès,34.0314245,-4.9925868
+4902417424,Pharmacie Ville Nouvelle صيدلية المدينة الجديدة,pharmacy,Avenue des Forces Armées Royales شارع الجيش الملكي,Fès,34.0343137,-4.9980042
+4904980522,Pharmacie du Boulevard صيدلية الشارع,pharmacy,Avenue Abdallah Chefchaouni,Fès,34.0408528,-4.9966699
+4913789721,Pharmacie Mariam صيدلية مريم,pharmacy,,Fès,33.9940124,-5.0477063
+4916834521,Pharmacie Oum Al Banine صيدلية أم البنين,pharmacy,Boulevard Ahmed Mekouar,Fès,34.0586789,-4.9795617
+4924422021,Pharmacie Sebti صيدلية السبتي,pharmacy,rue Benzakour Pres Clinique ryad,Fès,34.0323548,-5.0002925
+4941858121,Pharmacie la Commune صيدلية الجماعة الجديدة,pharmacy,,Fès ⴼⴰⵙ فاس,34.0333816,-5.0153706
+4952409023,Pharmacie Youssra صيدلية يسرى,pharmacy,801 bd ibn el haytem q sidi brahim,Fès,34.0293711,-4.9818124
+4956435822,Pharmacie Ilyas صيدلية إلياس,pharmacy,LOTSS BAB Lghoul dhar Lmahraz A5 FES,Fès,34.0451274,-4.9876615
+4956483023,Pharmacie Bab Alghoul صيدلية باب الغول,pharmacy,Avenue Mohamed Ben Arbi Alaoui شارع محمد السلاوي,Fès,34.0413437,-4.986712
+4965854542,Pharmacie Marhaba صيدلية مرحبا,pharmacy,HAY NAJAH SIDI BRAHIM RUE 2 N 98,Fès,34.0269793,-4.9880236
+4968139622,Pharmacie Bahia صيدلية باهية,pharmacy,Av MIDELT SIDI BRAHIM,Fès,34.0248246,-4.9854877
+4970125221,Pharmacie Boughafer صيدلية بوغافر,pharmacy,29 Rue Boughafer Narjis A,Fès,34.0222771,-4.9859761
+4970428922,Pharmacie Al Farabi صيدلية الفرابي,pharmacy,,Fès فاس,34.0369228,-5.0206543
+4971325222,Pharmacie Zakaria صيدلية زكرياء,pharmacy,Avenue Ibn Al Atir,Fès,34.0248226,-5.0180415
+4973828925,Pharmacie Chaymae صيدلية شيماء,pharmacy,,Fès ⴼⴰⵙ فاس,34.0324461,-5.0585174
+4974972222,Pharmacie Ibn Haitam صيدلية بن الهيثم,pharmacy,104 BV KAIRAOUANE NARJISS FES,Fès,34.0211705,-4.9830509
+4996666434,Pharmacie El Azhar صيدلية الأزهر,pharmacy,Haj Mustapha Lahlou Adarissa 2,Fès,34.0191682,-5.0126464
+5007363922,Pharmacie Ibn Al Hassan صيدلية ابن الحسن,pharmacy,,Fès ⴼⴰⵙ فاس,34.0605169,-5.0049131
+5020266326,Pharmacie Iraqi Karima صيدلية عراقي كريمة,pharmacy,Avenue Lissan-Edine Ibn Al-Khatib شارع لسان الدين ابن الخطيب,Fès,34.0206327,-5.0025925
+5022123421,Pharmacie Al Ambra  صيدلية العنبرة,pharmacy,Avenue Lissan-Edine Ibn Al-Khatib شارع لسان الدين ابن الخطيب,Fès,34.0227833,-4.9995074
+5025460621,Pharmacie Al Irfane صيدلية العرفان,pharmacy,Avenue Lissan-Edine Ibn Al-Khatib شارع لسان الدين ابن الخطيب,Fès,34.0175081,-5.0048856
+5039588521,Pharmacie Amal Achifae صيدلية أمل الشفاء,pharmacy,,Fès,34.0303207,-5.0546196
+5043818724,Pharmacie Badr صيدلية بدر,pharmacy,CITé Adarissa ang route Ain smen,Fès,34.0215987,-5.0167602
+5043819141,Pharmacie Azzahrae صيدلية الزهراء,pharmacy,Mohammed 6 Hay Lala soukaina fes,Fès,34.0202531,-5.0235395
+5043839331,Pharmacie Agdal صيدلية أكدال,pharmacy,Route Ain Smen Hay Badr,Fès,34.0214796,-5.0205636
+5045436328,Clinique Almajd,clinic,Mohammed El Fassi Hay Adarissa,Fés,34.0171995,-5.0169317
+5054002323,Centre Hémodialyse Moulay Driss,clinic,Rue Ibn Darraj,,34.0257104,-5.0242824
+5054002331,Pharmacie Labaraka صيدلية البركة,pharmacy,Omar Ibn Abdeljalil Hay Adarissa,Fès,34.0189521,-5.0152133
+5054019822,Pharmacie Ennassiri صيدلية الناصري,pharmacy,Route Ain Smen Hay Badr,Fès,34.0233883,-5.0210753
+5055972121,Pharmacie Omari صيدلية عماري,pharmacy,HAY SAADA,Fès,34.0268791,-5.0063514
+5081200223,Pharmacie Demnati صيدلية الدمناتي,pharmacy,9 HAY GRIOU ZOUAGHA,Fès,34.0207935,-5.0303522
+5084491622,Pharmacie Platanes صيدلية السيجان,pharmacy,,Fès,34.0043523,-5.00755
+5085452623,Pharmacie de l'Atlas صيدلية الأطلس,pharmacy,,Fès,34.0318989,-4.9948294
+5100489621,Pharmacie Afifa صيدلية عفيفة,pharmacy,HAY SAADA RESIDENCE NOUR,Fès,34.0234473,-5.0091718
+5107085722,Pharmacie Ifrane صيدلية إفران,pharmacy,Lot QODS route Immouzer,Fès,34.0144858,-5.0015964
+5117313022,Pharmacie Al Korachi صيدلية القرشي,pharmacy,,Fès,34.0191247,-5.0016602
+5119394922,Pharmacie Jabri صيدلية جابري,pharmacy,,Fès,34.0158774,-5.0043792
+5128231924,Pharmacie L'Opera صيدلية الأوبرا,pharmacy,LOT 94 MAGAZINE AIT SKATTO,Fès,34.0288781,-4.9951509
+5130402124,Pharmacie Erriad صيدلية الرياض,pharmacy,,Fès,34.0244919,-5.0126568
+5130442846,Pharmacie Mekouar صيدلية مكوار,pharmacy,Avenue Roi Houssaine Route d ' Immouzzer Resi Riad,Fès,34.0309569,-4.9981453
+5132771421,Clinique Les Jumelles,clinic,Avenue Roi Houssaine Rue Ibn Hani Face al Omrane,,34.030257,-4.9985712
+5142826921,Pharmacie Pasteur صيدلية باستور,pharmacy,HAY SALAM BOURKAYEZ,Fès,34.0271122,-5.009844
+5147046921,Clinique Saada,clinic,Hay Zaza,,34.0254959,-5.0041032
+5147303621,Pharmacie Arrazi صيدلية الرازي,pharmacy,Boulevard Moulay Hicham,Fès,34.0260606,-4.9976251
+5158675622,clique assalam,clinic,Ait Skatou,ait skatou,34.0260471,-4.9994625
+5173841426,Pharmacie Conseil صيدلية النصيحة,pharmacy,Route de Sefrou Lotis Ouafae 1,Fès,34.0132374,-4.9815705
+5183381724,Pharmacie Al Ihssane,pharmacy,6 LOTISS EL WAFA BD MY RACHID RTE SEFROU FEZ,Fès,34.0101598,-4.9792405
+5184257351,Pharmacie El Karam صيدلية الكرم,pharmacy,DHAR LKHMISS L'HABITAT,Fés,34.0698093,-4.9870605
+5185720525,Pharmacie Blanco صيدلية بلانكو,pharmacy,Ridicule Yasmine rte Ain chqef,Fès,33.9992559,-5.0091302
+5185876621,Pharmacie El Majd صيدلية المجد,pharmacy,Avenue Karouyine شارع القرويين,Fès,34.0177335,-4.980803
+5188283423,Pharmacie Al Ahbab صيدلية الأحباب,pharmacy,254 Lot fadela 3 rte Ain chkef,Fès,33.9992501,-5.004313
+5190415822,Pharmacie Taiba صيدلية طيبة,pharmacy,Route Ain Chkef,Fès,34.001416,-5.0066556
+5190427838,Pharmacie Ibn Khaldoun صيدلية ابن خلدون,pharmacy,Avenue Karouyine شارع القرويين,Fés,34.0144522,-4.9717966
+5194917728,Pharmacie C.H.U Hassan II صيدلية الحسن الثاني,pharmacy,Avenue My Rachid Route de Sefrou Zohor 2 Lotis Laila,Fès,34.0076473,-4.9779753
+5201978023,Pharmacie Al Inaya صيدلية العناية,pharmacy,Avenue Karouyine شارع القرويين,Fès,34.0166064,-4.9775556
+5203942033,Pharmacie Al Ikhwa صيدلية الإخوة,pharmacy,Route Ain Chkef,Fès,34.0069752,-5.0085257
+5203986721,Pharmacie Haoudi صيدلية هاودي,pharmacy,Avenue Karouyine شارع القرويين,Fès,34.0196338,-4.9851537
+5204002337,Pharmacie Najmi صيدلية نجمي,pharmacy,Hay anas rte ain chkef,Fès,34.0067506,-5.0053672
+5204049521,Pharmacie La Victoire صيدلية النصر,pharmacy,Avenue Abi Horaira Zohor 1,Fès,34.0178887,-4.9862395
+5206234024,Pharmacie Fatima Ezzahra صيدلية فاطمة الزهراء,pharmacy,2 LOT TOURIA ANAS 3,Fès,34.0046872,-5.0014405
+5207338425,Pharmacie El Houda صيدلية الهدى,pharmacy,Avenue Abi Horaira Zohor 1,Fès,34.0171254,-4.9894159
+5216068021,Pharmacie Bakkali صيدلية البقالي,pharmacy,Route Ain Chkef,Fès,34.0103035,-5.0057817
+5217881721,Pharmacie Florida صيدلية فلوريدا,pharmacy,Hay Anass 3,Fès,34.0076467,-5.0031474
+5217885522,Pharmacie Mont Fleuri صيدلية الجبل,pharmacy,Avenue Karama Zohour 1,Fès,34.0152601,-4.9860772
+5219627522,Pharmacie Al Yousr صيدلية اليسر,pharmacy,Complexe Salalam rte immouzer,Fès,34.012366,-5.0027424
+5231444736,Pharmacie Al Fadila صيدلية الفضيلة,pharmacy,Avenue Karama Zohour 1,Fès,34.0114188,-4.988769
+5239191223,Pharmacie Ryad صيدلية الرياض,pharmacy,Avenue Ibn Khatteb acces bouremana,Fès,34.0265672,-4.9935021
+5239191257,Pharmacie Ghizlane صيدلية غزلان,pharmacy,RTE DE SEFROULOTISS OUAFAE N 342 FES,Fés,34.0057403,-4.9687656
+5239191525,Pharmacie l'Entente صيدلية الإتفاق,pharmacy,160 LOTTI ERAC HAY WIFAK RTE AIN SMEN,Fès,34.0242974,-4.9897763
+5239191530,Pharmacie Route de Sefrou صيدلية طريق صفرو,pharmacy,Boulevard Moulay Rachid,Fès,34.0212182,-4.9879182
+5239335924,Pharmacie Faculté de Médecine صيدلية كلية الطب,pharmacy,hay elamal rte de sefrou,Fès فاس,34.0076423,-4.9652236
+5240910822,Pharmacie Fès Shore صيدلية فاس شور,pharmacy,Route du parc Fes-Shore,Fès فاس,34.0093643,-4.9616705
+5241087321,Pharmacie Nour El Houda صيدلية نور الهدى,pharmacy,BVD Israe,Fès,34.0129244,-4.965755
+5244010021,Pharmacie Champs de Courses صيدلية ملعب الخيل,pharmacy,champs de Cours,Fès فاس,34.036918,-5.0152573
+5244887442,Pharmacie Firdaous صيدلية الفردوس,pharmacy,Avenue Al Manama Zohour 1,Fès,34.0146357,-4.9897963
+5250338721,Pharmacie de l'Hôpital Universitaire صيدلية المستشفى الجامعي,pharmacy,Al Madina Mounawara,Fès ⴼⴰⵙ فاس,34.0106557,-4.9657329
+5251848522,Pharmacie Ibn Hazm صيدلية بن حزم,pharmacy,,Fès,34.0091231,-4.9695833
+5260991734,Pharmacie Yasmine صيدلية ياسمين,pharmacy,BVD D'oran mont fleuri 2,Fès,34.0102284,-4.9880887
+5263513421,Pharmacie Ben Cheikh صيدلية ابن الشيخ,pharmacy,,Fés,34.0127576,-4.9700355
+5263754721,Pharmacie Al Wassila صيدلية الوسيلة,pharmacy,200 ROUTE DE SEFROU LOTTI WAFAE FEZ,Fès,34.0063267,-4.9737192
+5269865621,Pharmacie Al Fajr صيدلية الفجر,pharmacy,Av Ocean Pacifique Hay Riad,Fès ⴼⴰⵙ فاس,34.0154938,-4.9630375
+5270743531,Pharmacie Beyrout صيدلية بيروت,pharmacy,139 av bayrout mont fleuri 1,Fès,34.0078871,-4.984039
+5270743624,Pharmacie Lahbabi صيدلية لحبابي,pharmacy,BV BAYROUT Résidence Rawd Azhar Mont fleuri,Fès,34.0044736,-4.9892319
+5281877223,Pharmacie le Docteur صيدلية الدكتور,pharmacy,Av Anawal Narjis D,Fès ⴼⴰⵙ فاس,34.018087,-4.9665089
+5283794728,Pharmacie Mourchid صيدلية مرشد,pharmacy,bvd Attadhia Narjiss,Fès,34.0133949,-4.9784725
+5291622524,Pharmacie Complexe Sportif صيدلية المركب الرياضي,pharmacy,Av Rahma Narjis,Fès ⴼⴰⵙ فاس,34.0171017,-4.9699202
+5293570222,Pharmacie Lina صيدلية لينة,pharmacy,Avenue Al Majd,Fès,34.0166758,-4.9745419
+5295524721,Pharmacie Azzouzi صيدلية عزوزي,pharmacy,Avenue Al Wahda,Fès,34.0153241,-4.9795386
+5298347522,Pharmacie Yousfi صيدلية يوسفي,pharmacy,LOT LAZRAK MONT FLEURI 2,Fès,34.0057858,-4.9834357
+5303210932,Pharmacie Sidi Brahim صيدلية سيدي ابراهيم,pharmacy,HAY EL QODS 2 BLOC 13 ERAC SIDI BRAHIM FES,Fès,34.0201153,-4.9703139
+5303267325,Pharmacie Noureddine صيدلية نور الدين,pharmacy,Awint Al Hajaj Bloc A4,Fès ⴼⴰⵙ فاس,34.0200563,-4.9641712
+5304746323,Pharmacie du Quartier Industriel صيدلية الحي الصناعي,pharmacy,HAY SIDI BRAHIM BLOC 18 N 6 ERAC FES,Fès ⴼⴰⵙ فاس,34.0222491,-4.9714568
+5308231623,Pharmacie Talbi صيدلية طالبي,pharmacy,Avenue Errahma,Fès ⴼⴰⵙ فاس,34.0193429,-4.9765996
+5309147427,Pharmacie Al Ikhlasse صيدلية الإخلاص,pharmacy,Avenue Koufa Zohour 2,Fès,34.0041222,-4.978387
+5309148523,Pharmacie Zohour صيدلية الزهور,pharmacy,Zohour 2,Fès,34.0044491,-4.9828381
+5309148722,Pharmacie Al Akhawayn صيدلية الأخوين,pharmacy,Avenue Ismailia Mont fleuri2,Fès,34.0074565,-4.9804051
+5316237421,Pharmacie Hay El Hassani صيدلية حي الحساني,pharmacy,HAY EI HASSANI BLOC 4 ERAC SIDI BRAHIM,Fès ⴼⴰⵙ فاس,34.0209771,-4.9744947
+5316386524,Pharmacie Narjiss صيدلية النرجس,pharmacy,,Fès,34.0206094,-4.9788651
+5316862623,Pharmacie Ismailia صيدلية الإسماعيلية,pharmacy,Avenue Ismailia Lotis Lahlou Zohour 1,Fès,34.0109079,-4.9831621
+5320229021,Pharmacie Cotef صيدلية كوطيف,pharmacy,,Fès,34.0227418,-4.9779877
+5320984826,Pharmacie Saoussane صيدلية سوسن,pharmacy,Avenue Benzert,Fès,34.002518,-4.9877202
+5320984833,Pharmacie La Famille صيدلية العائلة,pharmacy,Avenue Chenguit Zohour 2,Fès,34.0050682,-4.9869764
+5333830028,Clinique de La Vision de Fes,clinic,Avenue My Abdellah Route d ' Imouzzer Fès Saiss Lotis Riad Annakhil,,33.9935097,-4.991849
+5333830031,Pharmacie Hameda Benchekroun صيدلية حميدة بنشقرون,pharmacy,llah Route d ' Imouzzer Rue Bab Mansour,Fès,34.0086636,-4.993274
+5333830122,Polyclinique Annakhil,clinic,Avenue My Abdellah Route d ' Imouzzer Fès Saiss,,33.9950093,-4.9934955
+5333830421,Pharmacie La Suite صيدلية لاسويط,pharmacy,85lotiss Riad Nakhil route Immouzzer Fes,Fès,33.9939304,-4.9905295
+5356941721,Pharmacie Makro صيدلية ماكرو,pharmacy,3 lotti N 15 cartier bensouda,Fès,34.0201123,-5.0532944
+5358636223,La Grande Pharmacie الصيدلية الكبرى,pharmacy,BENSOUDA EN FACE DE ATACADAO,Fès,34.0239277,-5.0555968
+5360680621,Pharmacie El Boutahri صيدلي البوطهري,pharmacy,lotti hawae jamil Masjid 1 rte ras l ma,Fès,34.0182077,-5.0574499
+5361001722,Pharmacie Assafwa صيدلية الصفوة,pharmacy,N 24 LOT LAALEJ BENSOUDA,Fès,34.0215063,-5.0490094
+5361214423,Pharmacie El Hijazi صيدلية الحجازي,pharmacy,17 Lotiss Hatim Bensoudza,Fès,34.0202864,-5.0462911
+5370125323,Pharmacie Sandra صيدلية ساندرا,pharmacy,Lot Mssafer Bensouda,Fès,34.0242119,-5.0506962
+5370323321,Pharmacie Zouagha Bas صيدلية الزواغة السفلى,pharmacy,Lot Moulay Driss hay el marja,Fès,34.0277814,-5.0462297
+5372625428,Pharmacie Al Hamd صيدلية الحمد,pharmacy,HAY LMARJA RTE ZOUAGHA FES,Fès,34.0274386,-5.0413497
+5375123532,Pharmacie El Qods صيدلية القدس,pharmacy,,Fès,34.0156066,-5.0510426
+5375153021,Pharmacie L'Avenir صيدلية المستقبل,pharmacy,122 LOTTI TAOUFIK AL MARJAT,Fès,34.0303541,-5.0410357
+5377810721,Pharmacie Al Marja صيدلية المرجة,pharmacy,Rue 27 Marja,Fès,34.0312285,-5.0446229
+5377973123,Pharmacie Attaakhi صيدلية التآخي,pharmacy,Lot Star Sakane marja,Fès,34.031626,-5.051411
+5392797622,Pharmacie Arreda صيدلية الرضا,pharmacy,ZOUAGHA RTE BENSOUDA,Fès,34.0365448,-5.0494287
+5393784822,Pharmacie Sefrioui صيدلية الصفريوي,pharmacy,Route d ' Ain Chkef,Fès,34.0088152,-5.0097849
+5393785323,Pharmacie Diamant Vert صيدلية الجوهرة الخضراء,pharmacy,Route d ' Ain Chkef Lotis Karaouiyine,Fès,34.0009245,-5.0120511
+5395575621,Pharmacie Ouad El Jawahir صيدلية واد الجواهر,pharmacy,4 RUE 15 BLOC D HAY OUED FEZ MARJA,Fès,34.0388197,-5.0507853
+5398354121,Pharmacie Wafi صيدلية الوافي,pharmacy,Riad Zouhour Marja Ouad,Fès,34.036935,-5.0441143
+5398499522,Pharmacie Espace Santé صيدلية فضاء الصحة,pharmacy,235 LOTTI EZZOHOR HAY EL MARJA,Fès,34.0341382,-5.0436688
+5398558823,Pharmacie Haj Bensalem صيدلية الحاج بنسالم,pharmacy,Hay Mikou Marja Ouad,Fès,34.0351489,-5.038962
+5398624423,Pharmacie Italia صيدلية إيطاليا,pharmacy,Hay Tazi Marja Ouad,Fès,34.0401158,-5.0349723
+5400932621,Pharmacie Al Najoua صيدلية النجوى,pharmacy,1 RUE 9 HAY MIKOU MERJA FEZ,Fès,34.0375903,-5.0406043
+5407132238,Pharmacie El Iraki صيدلية العراقي,pharmacy,,Fès,34.0147038,-5.0486606
+5407220722,Pharmacie Al Oumma صيدلية الأمة,pharmacy,61B ROUTE BENSOUDA ZOUAGHA,Fès,34.0233281,-5.0375648
+5414211822,Pharmacie Zouagha صيدلية الزواغة,pharmacy,ZOUAGHAT RTE BENSOUDA,Fès,34.0247648,-5.0351104
+5424399125,Pharmacie Bensouda صيدلية بن سودة,pharmacy,3 hay Msallah fes,Fès,34.0170139,-5.0531777
+5424447822,Pharmacie Av Med VI صيدلية شارع محمد السادس,pharmacy,BVD MOHAMMED 6 ZOUAGHAT,Fès,34.0263639,-5.028244
+5430059334,Pharmacie des Sciences صيدلية العلوم,pharmacy,347 LOT QUARAOUIYINE RTE AIN CHEKAF,Fès,34.0104753,-5.0176469
+5437048725,Pharmacie Sekkat صيدلية السقاط,pharmacy,hay nakhil rte bain smen,Fès,34.0125631,-5.0227221
+5437151022,Pharmacie Al Wahda صيدلية الوحدة,pharmacy,bd Abou houraira mont fleuri 1 FES,Fès,34.0132168,-5.0514716
+5439966421,Pharmacie Kandoussi صيدلية القندوسي,pharmacy,132 Lotiss farah bensouda fes,Fès,34.0037878,-5.0446424
+5445400122,Pharmacie Ain Smen صيدلية عين السمن,pharmacy,HAY AL WEFAK BLOC N 172 FEZ,Fès,34.0120186,-5.0262209
+5446674221,Pharmacie Errachidia صيدلية الراشدية,pharmacy,LOT ARRACHIDIA RTE AIN CHEKEF,Fès,34.015282,-5.0136845
+5472824321,Pharmacie Al Wissal صيدلية الوصال,pharmacy,PROJET WIAM RESIDENCE ZAHRAE HAY NASSIM FES,Fès ⴼⴰⵙ فاس,33.9952412,-5.0560575
+5472942725,Pharmacie Al Kaoutar صيدلية الكوثر,pharmacy,210 BLOC A HAY WIFAK RTE AIN SMEN,Fès,34.0136031,-5.0293645
+5490795223,Pharmacie Fahmi صيدلية فهمي,pharmacy,Hay Griyou Zouagha Haute,Fès,34.0170581,-5.0296466
+5490862523,Pharmacie Ayoub صيدلية أيوب سيد الهادي,pharmacy,Hay Griyou Zouagha Haute,Fès,34.0153361,-5.031363
+5495984921,Pharmacie Basma,pharmacy,Hay Jadid Zouagha Haute,,34.0173431,-5.0331285
+5496103023,Pharmacie Annamae صيدلية النماء,pharmacy,,Fès,33.9986675,-5.0577644
+5496517321,Pharmacie la Ferraille صيدلية لافيراي,pharmacy,,Fès,33.999834,-5.0540763
+5505183922,Pharmacie le Coin صيدلية الركن,pharmacy,Hay Jdid Zouagha Haute,Fès,34.012893,-5.0331652
+5507936522,Pharmacie Sanabil صيدلية السنابل,pharmacy,BVD Sanabil Zouagha Haute,Fès,34.021261,-5.03528
+5522399521,Pharmacie Dar Es-Salam صيدلية دار السلام,pharmacy,Lot Mhamdia Zouagha Haute,Fès,34.0232632,-5.0287799
+5524915624,Pharmacie Addoha صيدلية الضحى,pharmacy,Bloc B Zouagha Haute,Fès فاس,34.0237733,-5.0322943
+5525093277,Pharmacie Oum El Koura صيدلية أم القرى,pharmacy,Hay Jdid Zouagha Haute,Fès,34.0184753,-5.0364946
+5527473421,Pharmacie Al Farouk صيدلية الفاروق,pharmacy,Hay Sidi Lhadi Zouagha Haute,Fès,34.0203423,-5.0385293
+5527619921,Pharmacie Sidi El Hadi صيدلية سيدي الهادي,pharmacy,Hay Sidi El Hadi,Fès,34.0183742,-5.0407606
+5527682122,Pharmacie Al Khattabi صيدلية الخطابي,pharmacy,Lot Adouha Zouagha Haute,Fès,34.0139363,-5.0434335
+5528634825,Pharmacie des Roches صيدلية الصخور,pharmacy,,Fès,33.9948567,-5.0078415
+5552817821,Pharmacie Sagha صيدلية الصاغة,pharmacy,,Fès,34.066239,-4.9748059
+5558873045,Cabinet Cardiologue,clinic,,,34.0356801,-5.0007628
+5558891231,Cabinet de Rheumatologie,hospital,,rue mohamed ZARKTOUNI FEZ,34.0369853,-5.0019344
+5718733521,Pharmacie Chifae Arrahmane صيدلية شفاء الرحمان,pharmacy,,Fès,34.0516802,-5.0433317
+5727962822,Pharmacie Jardin de Tghath صيدلية حديقة تغاث,pharmacy,Avenue Moussa Ben Noussair,Fès,34.0595306,-5.0238346
+5735067971,Pharmacie Errachid صيدلية الرشيد,pharmacy,,Fès ⴼⴰⵙ فاس,34.0704938,-4.9996766
+5735223007,Pharmacie Al Imam Mouslim صيدلية الإمام مسلم,pharmacy,,Fès ⴼⴰⵙ فاس,34.0670337,-5.0108801
+5740981221,Pharmacie Dar Dmana صيدلية دار الضمانة,pharmacy,Bab Khoukha,Fès ⴼⴰⵙ فاس,34.0650353,-4.9574981
+5744062346,Pharmacie Al Youmne صيدلية اليمن,pharmacy,,Fès,34.0092557,-5.0413397
+5749776079,Pharmacie Volubilis صيدلية وليلي,pharmacy,Rue Abi Tayeb Al Motanabbi,Fès,34.0347847,-5.0003661
+5763509517,clinique nour,clinic,,6 rue kasem amine,34.0306715,-5.0093894
+5765530617,clinique haj abdehadi,clinic,,ain kadous fez,34.0617107,-5.0131736
+7725405985,Pharmacie Riad Chafi صيدلية رياض الشافي,pharmacy,Avenue Naoual,Fès,34.0164626,-4.9599062
+8972515927,Pharmacie Asmae صيدلية أسماء,pharmacy,Avenue Rachad,Fès,34.0136448,-4.9752165
+8972595649,Pharmacie du Lido صيدلية الليدو,pharmacy,Route des Champs شارع الجولان,Fès,34.0331265,-4.9904057
+8984249652,Pharmacie Saada صيدلية السعادة,pharmacy,HAY SAADA RTE AIN CHQEF,Fès,34.0256245,-5.0048828
+8993802951,Pharmacie Gharnata صيدلية غرناطة,pharmacy,,Fès,34.0357569,-5.0287686
+9010895004,Pharmacie Berrada صيدلية برادة,pharmacy,,Fès,34.0591521,-5.0138627
+9010900716,Pharmacie Averroès صيدلية ابن رشد,pharmacy,Ibn Hajar,Fès,34.0433492,-5.0091946
+9032660795,Pharmacie Attouraya صيدلية الثريا,pharmacy,,Fès ⴼⴰⵙ فاس,34.0695594,-4.9955712
+9032668703,Pharmacie Hay Belkhayat صيدلية حي بلخياط,pharmacy,,Fès,34.0686025,-5.001806
+9032672710,Pharmacie Al Mamalik صيدلية الممالك,pharmacy,,Fès,34.0658698,-4.9968004
+9032747370,Pharmacie le Remède صيدلية الدواء,pharmacy,,Fès ⴼⴰⵙ فاس,34.0588845,-5.0111457
+9032748170,Pharmacie Ain Kadouss صيدلية عين قادوس,pharmacy,,Fès,34.0598898,-5.008256
+9032830871,Pharmacie Benkirane صيدلية بنكيران,pharmacy,,Fès,34.0596226,-5.0169477
+9032834575,Pharmacie El Ghazi صيدلية الغازي,pharmacy,,Fès,34.0567516,-5.0152941
+9035353158,Pharmacie Jbel Tghat صيدلية جبل ثغات,pharmacy,,Fès,34.0577633,-5.0212595
+9035364493,Pharmacie Faiza صيدلية فايزة,pharmacy,,Fès فاس,34.0566911,-5.0303904
+9035500323,Pharmacie Salah صيدلية صلاح,pharmacy,,Fès,34.0554449,-5.0256744
+9035505122,Pharmacie Reda صيدلية رضا,pharmacy,,Fès,34.0571553,-5.0267418
+9035534360,Pharmacie Al Imane صيدلية الإيمان,pharmacy,,Fès,34.0523514,-5.0344778
+9035544128,Pharmacie Al Falah صيدلية الفلاح,pharmacy,,Fès فاس,34.0550044,-5.0287002
+9035591817,Pharmacie Ain Haroun صيدلية عين هارون,pharmacy,,Fès,34.066531,-5.0073181
+9035612159,Pharmacie Ibn Al Khatib صيدلية بن الخطيب,pharmacy,,Fès,34.0665259,-5.0035026
+9035630210,Pharmacie Agadir صيدلية أكادير,pharmacy,,Fès,34.063744,-5.009789
+9035717748,Pharmacie Saida صيدلية سعيدة,pharmacy,,Fès,34.0651564,-5.0162463
+9035797630,Pharmacie Es-Salam صيدلية السلام,pharmacy,Avenue Oqba Ben Nafia,Fès,34.0610614,-5.0123122
+9038248382,Pharmacie Ibn Sina صيدلية ابن سينا,pharmacy,,Fès,34.0634415,-5.0054342
+9038251500,Pharmacie Dayaa صيدلية الضيعة,pharmacy,,Fès,34.0627967,-5.0181666
+9038273758,Pharmacie Hay Laalou صيدلية حي لعلو,pharmacy,,Fès,34.0651138,-5.0121204
+9038321797,Pharmacie Al Imam Malik صيدلية الإمام مالك,pharmacy,,Fès,34.0622255,-5.0215687
+9038337026,Pharmacie Al Marwa صيدلية المروى,pharmacy,,Fès,34.0602017,-5.0285858
+9040946630,Pharmacie Al Hilal صيدلية الهلال,pharmacy,,Fès ⴼⴰⵙ فاس,34.0611772,-5.0330511
+9041087322,Pharmacie Soundous صيدلية السندس,pharmacy,,Fès,34.0593037,-5.0364883
+9041103033,Pharmacie El Boukhari صيدلية البخاري,pharmacy,,Fès,34.0567425,-5.0352601
+9041125608,Pharmacie Mounia صيدلية مونية,pharmacy,,Fès ⴼⴰⵙ فاس,34.058589,-5.0397344
+9041137082,Pharmacie Youssef Ben Tachafine صيدلية يوسف تاشفين,pharmacy,,Fès,34.0549853,-5.0415456
+9041162334,Pharmacie Lhoumadi صيدلية لحومادي,pharmacy,,Fès,34.0511596,-5.0393854
+9041164672,Pharmacie Maalal صيدلية معلال,pharmacy,,Fès ⴼⴰⵙ فاس,34.0531852,-5.0380269
+9041205020,Pharmacie Hasnaoui صيدلية الحسناوي,pharmacy,,Fès ⴼⴰⵙ فاس,34.0587131,-5.0454574
+9041206899,Pharmacie Dr Obtel صيدلية د.أوبتيل,pharmacy,,Fès ⴼⴰⵙ فاس,34.05283,-5.048599
+9041211850,Pharmacie El Mountazah صيدلية المنتزه,pharmacy,,Fès,34.0558711,-5.0446871
+9041249677,Pharmacie Nasma صيدلية نسمة,pharmacy,,Fès ⴼⴰⵙ فاس,34.0453606,-4.9541227
+9041266437,Pharmacie Al Hanae صيدلية الهناء,pharmacy,,Fès,34.0488103,-4.9606574
+9041318009,Pharmacie Bled Tahiriyine صيدلية بلاد الطاهريين,pharmacy,,Fès,34.0474135,-4.9562404
+9041369092,Pharmacie Al Makkiya صيدلية المكية,pharmacy,,Fès,34.0507379,-4.9572886
+9043787624,Pharmacie Driss صيدلية إدريس,pharmacy,,Fès,34.0501087,-4.9644643
+9043830738,Pharmacie Wisslane صيدلية ويسلان,pharmacy,,Fès,34.0581225,-4.9520117
+9043830995,Pharmacie El Louizatt صيدلية اللويزات,pharmacy,,Fès,34.0593227,-4.9564327
+9043883647,Pharmacie M'sella صيدلية المصلى,pharmacy,,Fès,34.0524925,-4.9608524
+9043883650,Pharmacie la Ménara صيدلية المنارة,pharmacy,,Fès,34.0142987,-4.9681185
+9043888667,Pharmacie Kamal صيدلية كمال,pharmacy,,Fès,34.0571051,-4.9544992
+9043894386,Pharmacie Al Walidin صيدلية الوالدين,pharmacy,,Fès ⴼⴰⵙ فاس,34.0611174,-4.93784
+9043936390,Pharmacie Saguia Lhamra صيدلية الساقية الحمراء,pharmacy,,Fès,34.0182531,-4.9723992
+9043956382,Pharmacie Aouinat El Hajjaj صيدلية عوينات الحجاج,pharmacy,,Fès ⴼⴰⵙ فاس,34.0200745,-4.967283
+9043968723,Pharmacie El Alj صيدلية العلج,pharmacy,,Fès ⴼⴰⵙ فاس,34.0199568,-4.9679916
+9043970857,Pharmacie Alae Arrahman صيدلية الرحمان,pharmacy,,Fès ⴼⴰⵙ فاس,34.0178391,-4.9630909
+9044125530,Pharmacie Moulay Abdellah صيدلية مولاي عبد الله,pharmacy,Avenue Derb Moulay Abdellah,Fès ⴼⴰⵙ فاس,34.0571831,-4.9933334
+9045350223,Pharmacie Bab Fès صيدلية باب فاس,pharmacy,,Fès ⴼⴰⵙ فاس,34.0611947,-4.9418139
+9045364285,Pharmacie Moulay M'Barek صيدلية مولاي مبارك,pharmacy,,Fès,34.0639385,-4.9543363
+9045374425,Pharmacie Ain Nokbi صيدلية عين النقبي,pharmacy,,Fès,34.0617846,-4.9526825
+9045400740,Pharmacie El Kobba صيدلية القبة,pharmacy,,Fès,34.0644193,-4.9527481
+9045416087,Pharmacie Jnane Kadiri صيدلية جنان القادري,pharmacy,,Fès ⴼⴰⵙ فاس,34.067096,-4.955399
+9045445097,Pharmacie Al Andalous صيدلية الأندلس,pharmacy,Boulevard des Merinides,Fès ⴼⴰⵙ فاس,34.0704308,-4.966285
+9045451994,Pharmacie Jnan Mekouar صيدلية جنان مكوار,pharmacy,,Fès ⴼⴰⵙ فاس,34.0718486,-4.96295
+9048910905,Pharmacie Fatima Al Fihriya صيدلية فاطمة الفهرية,pharmacy,,Fès,34.0560754,-4.9741905
+9048942320,Pharmacie Zkak Lahjar صيدلية زقاق الحجر,pharmacy,,Fès,34.0633697,-4.9777072
+9049003728,Pharmacie Bab El Guissa صيدلية باب عجيسة,pharmacy,,Fès,34.068623,-4.9757032
+9049003729,Pharmacie Oued Zhoun صيدلية واد الزحون,pharmacy,,Fès ⴼⴰⵙ فاس,34.0685381,-4.9706313
+9051315874,Pharmacie Zarouk صيدلية زروق,pharmacy,,Fès ⴼⴰⵙ فاس,34.0707225,-4.9689367
+9051360164,Pharmacie Hanane صيدلية حنان,pharmacy,,Fès ⴼⴰⵙ فاس,34.0667619,-4.9635254
+9051362482,Pharmacie Jnan Drader صيدلية جنان الدرادر,pharmacy,,Fès ⴼⴰⵙ فاس,34.0673755,-4.9698138
+9051373294,Pharmacie Sidi Boujida صيدلية سيدي بوجيدة,pharmacy,,Fès ⴼⴰⵙ فاس,34.0667762,-4.9669479
+9051405111,Pharmacie Ibn Battouta صيدلية بن بطوطة,pharmacy,,Fès ⴼⴰⵙ فاس,34.0656218,-4.9624823
+9051555679,Pharmacie Al Anouar صيدلية الأنوار,pharmacy,,Fès ⴼⴰⵙ فاس,34.0637703,-4.9664302
+9051567252,Pharmacie Bab El Hamraa صيدلية باب الحمراء,pharmacy,,Fès,34.0605946,-4.9688505
+9051585120,Pharmacie Lagzira صيدلية الجزيرة,pharmacy,,Fès,34.0620445,-4.9716214
+9056633676,Pharmacie Tadlaoui صيدلية التدلاوي,pharmacy,,Fès,34.0541841,-5.0183917
+9060425474,Pharmacie Bouramana صيدلية بورمانة,pharmacy,Rue Khalid Ibn Walid,Fès,34.0225701,-4.9940671
+9060655331,Pharmacie de Paris صيدلية باريس,pharmacy,,Fès,34.0103805,-4.9858207
+9060727343,Pharmacie Ibn Taymiya صيدلية بن تيمية,pharmacy,Rocade Sud,Fès ⴼⴰⵙ فاس,33.9902509,-4.9908913
+9060749381,Pharmacie Slaoui صيدلية السلاوي,pharmacy,,Fès,33.9979001,-4.9846357
+9062914094,Pharmacie Meliani صيدلية ملياني,pharmacy,,Fès ⴼⴰⵙ فاس,33.9871216,-4.986228
+9062937355,Pharmacie Mouldwa صيدلية مولدوا,pharmacy,Lots Sabaté 1 Zouhour,Fès ⴼⴰⵙ فاس,33.9841552,-4.9860443
+9062945305,Pharmacie El Kadiri صيدلية القادري,pharmacy,,Fès ⴼⴰⵙ فاس,33.9921687,-4.9878437
+9062947497,Pharmacie Arrayhane صيدلية الريحان,pharmacy,,Fès,33.9945831,-4.970386
+9062954266,Pharmacie Almaz صيدلية ألماز,pharmacy,,Fès ⴼⴰⵙ فاس,33.9905847,-4.977379
+9062969840,Pharmacie l'Humanité صيدلية الإنسانية,pharmacy,,Fès,33.9782135,-5.0264176
+9062971624,Pharmacie Faculté Echariaa صيدلية كلية الشريعة,pharmacy,,Fès,33.9984657,-4.9750457
+9062980670,Pharmacie Jardins El Badie صيدلية حدائق البديع,pharmacy,,Fès ⴼⴰⵙ فاس,33.9861055,-5.0122274
+9063042255,Pharmacie Diamant de Fès صيدلية جوهرة فاس,pharmacy,,Fès ⴼⴰⵙ فاس,33.9943582,-4.9666565
+9063046705,Pharmacie Route Sidi Hrazem صيدلية طريق سيدي حرازم,pharmacy,,Fès ⴼⴰⵙ فاس,34.010757,-4.9558975
+9063050284,Pharmacie Menzeh Saïss صيدلية منزه سايس,pharmacy,,Fès ⴼⴰⵙ فاس,34.0075084,-4.9541278
+9064150951,Pharmacie Guard صيدلية كارد,pharmacy,,Fès ⴼⴰⵙ فاس,34.0112352,-4.9739285
+9064151371,Pharmacie Ibno Tachefine صيدلية ابن تاشفين,pharmacy,Rue Taiwan,Fès ⴼⴰⵙ فاس,34.0117766,-4.9722125
+9064248041,Pharmacie Essania صيدلية السانية,pharmacy,,Fès فاس,34.0098741,-4.9609846
+9064274028,Pharmacie Bel Air صيدلية بلير,pharmacy,,Fès ⴼⴰⵙ فاس,34.0126429,-4.9607711
+9067076233,Pharmacie Ryad Saiss صيدلية رياض سايس,pharmacy,,Fès ⴼⴰⵙ فاس,34.0145582,-4.9616357
+9067097844,Pharmacie Hay Riyad صيدلية حي الرياض,pharmacy,,Fès ⴼⴰⵙ فاس,34.0192846,-4.9605092
+9067122685,Pharmacie El Otmani صيدلية العثماني,pharmacy,,Fès ⴼⴰⵙ فاس,34.0229583,-4.9649338
+9067461578,Pharmacie de l'Université صيدلية الجامعة,pharmacy,Avenue Ibn Khatib زنقة شفشاون,Fès,34.033483,-4.9859151
+9074295920,Pharmacie Al Alia صيدلية العالية,pharmacy,Boulevard Abu Houriya,Fès,34.0139018,-5.0059757
+9077198847,Pharmacie Masjid Arreda صيدلية مسجد الرضى,pharmacy,,Fès,34.002482,-4.9982576
+9077218586,Pharmacie des 3 Sources صيدلية المنابع الثلاث,pharmacy,,Fès,33.9967109,-4.9940193
+9077240390,Pharmacie Jamai صيدلية الجامعي,pharmacy,,Fès,33.9952552,-5.003872
+9077291355,Pharmacie Rachidia 3 صيدلية الراشدية,pharmacy,,Fès,34.0123275,-5.0141604
+9077313479,Pharmacie Al Alaoui صيدلية العلوي,pharmacy,,Fès ⴼⴰⵙ فاس,33.9918236,-5.0052984
+9077395032,Pharmacie Riad El Yassamine صيدلية رياض الياسمين,pharmacy,,Fès,33.9947174,-5.0112751
+9080092417,Pharmacie Steven صيدلية ستيفن,pharmacy,,فاس,34.0258203,-5.0095409
+9080252241,Pharmacie Technologie صيدلية التكنولوجيا,pharmacy,,Fès,34.0077585,-5.0138875
+9080367514,Pharmacie Socrate صيدلية سقراط,pharmacy,,Fès,34.0039944,-5.0171304
+9080513814,Pharmacie Zahraoui صيدلية الزهراوي,pharmacy,,Fès,34.001512,-5.0153503
+9082210309,Pharmacie Al Madina صيدلية المدينة,pharmacy,,Fès,34.0032877,-5.0111208
+9082226035,Pharmacie Borj Ennakhil صيدلية برج النخيل,pharmacy,,Fès,33.99852,-5.0160907
+9082234019,Pharmacie Zineb صيدلية زينب,pharmacy,,Fès,33.9948475,-5.0175189
+9082250910,Pharmacie Ahel Fès صيدلية أهل فاس,pharmacy,,Fès ⴼⴰⵙ فاس,33.9877828,-5.0407775
+9082252419,Pharmacie California صيدلية كاليفورنيا,pharmacy,,Fès ⴼⴰⵙ فاس,33.9925945,-5.0205935
+9082305309,Pharmacie El Aziza صيدلية العزيزة,pharmacy,,Fès ⴼⴰⵙ فاس,33.9938707,-5.0313473
+9088108976,Pharmacie Rihab صيدلية رحاب,pharmacy,,Fès,34.0360636,-5.0051466
+9088262543,Pharmacie Bennouna صيدلية بنونة,pharmacy,,Fès,34.0233152,-5.0237243
+9088494169,Pharmacie Aida صيدلية عايدة,pharmacy,,Fès,34.0390484,-5.0183225
+9091590534,Pharmacie Zahir صيدلية زاهر,pharmacy,,Fès ⴼⴰⵙ فاس,34.021658,-5.0579744
+9091796679,Pharmacie Dalia صيدلية الدالية,pharmacy,,Fès ⴼⴰⵙ فاس,33.9932207,-5.0520318
+9094719849,Pharmacie Wisslane صيدلية ويسلان,pharmacy,,Fès,34.0168098,-5.0494146
+9094725558,Pharmacie des Champs صيدلية الحقول,pharmacy,,Fès,34.0361253,-5.0345556
+9094730495,Pharmacie Moussaoui صيدلية موساوي,pharmacy,,Fès,34.0414705,-5.048577
+9094860849,Pharmacie Al Omnia صيدلية الأمنية,pharmacy,,Fès,34.0272369,-5.0520034
+9094866098,Pharmacie Paraconfiance صيدلية باراكونفيونس,pharmacy,,Fès,34.0226454,-5.0489759
+9098553534,Pharmacie Nellia صيدلية نيليا,pharmacy,,Fès,34.0144488,-5.0362829
+9098697829,Pharmacie Belmhani صيدلية بلمهاني,pharmacy,,Fès ⴼⴰⵙ فاس,34.0523606,-4.9924017
+9105637082,Pharmacie Tajmouati صيدلية تجموعتي,pharmacy,,Fès,34.0117048,-5.0070681
+9105659218,Pharmacie El Borj صيدلية البرج,pharmacy,,Fés,34.0686958,-4.9857424
+9105667807,Pharmacie Hay Benslimane صيدلية حي بنسليمان,pharmacy,,Fès,34.0696287,-4.9864241
+9105714468,Pharmacie de Fès صيدلية فاس,pharmacy,,Fès,34.06438,-5.0110997
+9107961171,Pharmacie Ouandou صيدلية واندو,pharmacy,Avenue Youssef Ben Tachefine,Fès فاس,34.0572905,-5.0314442
+9107998723,Pharmacie Ziat صيدلية الزيات,pharmacy,,Fès,34.0585728,-4.9791927
+9651845874,Pharmacie Nationale,pharmacy,,,34.0626035,-4.9795049
+11078278907,مصحة طب العيون فاس OCF,clinic,,,34.0280753,-4.998582
+11309227132,Pharmacie Nour,pharmacy,,,34.0529333,-4.9921724
+11383498778,,clinic,,,34.0038095,-4.9726886
+13265043539,Pharmacie ROUTE AIN CHKEF,pharmacy,lot Riad yassamine,Fes,33.9976267,-5.011974
+150786744,University hospital Hassan II,hospital,,,34.0043481,-4.9622857
+394139696,Clinique RAIS,hospital,Avenue Allal Ben Abdallah,Fès,34.0335173,-5.006211
+394139704,Clinique Agdal مصحة أكدال,clinic,,Fès,34.0356144,-5.0091297
+478962749,clinique Nour مصحة النور,clinic,,FEZ,34.0306759,-5.0094088
+530892959,Croissant rouge marocain,hospital,,rue mohamed el hansali fes,34.0382154,-5.0006078
+531716167,Dispensaire,clinic,Avenue Lalla Hasnae,Fes ville,34.0448754,-5.0012175
+533829327,Hôpital Omar Drissi,hospital,"Av Allal El Fassi Avenue de La Liberte, Fès, Maroc",,34.0573836,-4.9813786
+561184067,مستشفى ابن البتطار,hospital,,فاس,34.0425666,-4.9847657
+606741265,Polyclinique Atlas,clinic,Boulevard Moulay Rachid,Fez,34.0264562,-4.9904564
+606825183,Centre De Dialyse Et Des Maladies Renales SAADA,clinic,Rue Limoune,,34.0228991,-5.0058145
+607107945,الكوثر,hospital,,fez,34.0143665,-4.9998494
+789181172,Hopital Ibn Alkhatib,hospital,,Fès,34.0636488,-4.9901604
+789182504,مستشفى الغساني,hospital,طريق مستشفى الغساني,فاس,34.0446665,-4.985025
+789284217,Centre de santé adarissa المركز الصحي الادارسة,hospital,,,34.0173921,-5.0136059
+789787636,dispenssaire ain zliten,hospital,,Fes Médina ain zleten,34.0641064,-4.9809569
+789787792,croissant rouge el batha الهلال الاحمر,hospital,,Fes Médina batha,34.0597948,-4.9821199
+789788356,docteur Générale,hospital,,Fes Médina batha,34.0602977,-4.9816195
+863358238,,hospital,,,34.0530199,-4.9882772
+919406293,Hopital Ibn Khaldoun,hospital,,,34.06329,-4.9907796
+919586648,,hospital,,,34.0451081,-4.9852771
+1008795060,Clinique des Specialites Ryad,clinic,,2 RUE BENZAKOUR ATLAS FES,34.0312267,-4.9988263

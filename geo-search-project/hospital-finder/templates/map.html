@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Finder Fès</title>
+    <meta charset="utf-8">
+    
+    <!-- Leaflet CSS (OpenStreetMap) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        
+        .container {
+            display: flex;
+            height: calc(100vh - 80px);
+        }
+        
+        .sidebar {
+            width: 350px;
+            background: white;
+            padding: 20px;
+            overflow-y: auto;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        }
+        
+        #map {
+            flex: 1;
+        }
+        
+        .search-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .search-box h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .form-group {
+            margin-bottom: 10px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        select, input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: #5568d3;
+        }
+        
+        .results {
+            margin-top: 20px;
+        }
+        
+        .hospital-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .hospital-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        
+        .hospital-name {
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .hospital-info {
+            font-size: 14px;
+            color: #666;
+            margin: 4px 0;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #e3f2fd;
+            color: #1976d2;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+        
+        .badge.urgent {
+            background: #ffebee;
+            color: #c62828;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏥 Hospital Finder - Fès</h1>
+        <p>Trouvez les hôpitaux et cliniques près de vous</p>
+    </div>
+    
+    <div class="container">
+        <div class="sidebar">
+            <div class="search-box">
+                <h3>🔍 Rechercher</h3>
+                
+                <div class="form-group">
+                    <label>📍 Position de départ</label>
+                    <select id="position">
+                        {% for key, pos in positions.items() %}
+                        <option value="{{ pos.lat }},{{ pos.lon }}">{{ pos.name }}</option>
+                        {% endfor %}
+                        <option value="custom">Position personnalisée</option>
+                    </select>
+                </div>
+                
+                <div id="customCoords" style="display:none;">
+                    <div class="form-group">
+                        <label>Latitude</label>
+                        <input type="number" id="customLat" step="0.0001" placeholder="34.0331">
+                    </div>
+                    <div class="form-group">
+                        <label>Longitude</label>
+                        <input type="number" id="customLon" step="0.0001" placeholder="-5.0003">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>📏 Rayon de recherche</label>
+                    <select id="radius">
+                        <option value="0.5">500m</option>
+                        <option value="1">1 km</option>
+                        <option value="2" selected>2 km</option>
+                        <option value="3">3 km</option>
+                        <option value="5">5 km</option>
+                    </select>
+                </div>
+                
+                <button onclick="search()">Rechercher</button>
+                <button onclick="showAll()" style="margin-top: 10px; background: #28a745;">
+                    Afficher tous les hôpitaux
+                </button>
+            </div>
+            
+            <div class="results">
+                <h3 style="margin-bottom: 15px;">Résultats</h3>
+                <div id="resultsList"></div>
+            </div>
+        </div>
+        
+        <div id="map"></div>
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script>
+        // Initialiser la carte OSM centrée sur Fès
+        const map = L.map('map').setView([34.0331, -5.0003], 13);
+        
+        // Ajouter les tuiles OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors',
+            maxZoom: 19
+        }).addTo(map);
+        
+        let markers = [];
+        let userMarker = null;
+        
+        // Gérer le changement de position
+        document.getElementById('position').addEventListener('change', function() {
+            if (this.value === 'custom') {
+                document.getElementById('customCoords').style.display = 'block';
+            } else {
+                document.getElementById('customCoords').style.display = 'none';
+            }
+        });
+        
+        // Fonction de recherche
+        async function search() {
+            const posSelect = document.getElementById('position');
+            let lat, lon;
+            
+            if (posSelect.value === 'custom') {
+                lat = parseFloat(document.getElementById('customLat').value);
+                lon = parseFloat(document.getElementById('customLon').value);
+            } else {
+                [lat, lon] = posSelect.value.split(',').map(parseFloat);
+            }
+            
+            const radius = parseFloat(document.getElementById('radius').value);
+            
+            // Marquer la position de l'utilisateur
+            if (userMarker) map.removeLayer(userMarker);
+            userMarker = L.marker([lat, lon], {
+                icon: L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41]
+                })
+            }).addTo(map);
+            userMarker.bindPopup('<b>📍 Votre position</b>').openPopup();
+            
+            // Cercle de recherche
+            L.circle([lat, lon], {
+                radius: radius * 1000,
+                color: '#667eea',
+                fillColor: '#667eea',
+                fillOpacity: 0.1
+            }).addTo(map);
+            
+            // Centrer la carte
+            map.setView([lat, lon], 14);
+            
+            // Appel API
+            const response = await fetch('/api/search', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({latitude: lat, longitude: lon, radius: radius})
+            });
+            
+            const hospitals = await response.json();
+            displayResults(hospitals);
+        }
+        
+        // Afficher tous les hôpitaux
+        async function showAll() {
+            const response = await fetch('/api/all');
+            const hospitals = await response.json();
+            displayResults(hospitals);
+            
+            // Ajuster la vue pour montrer tous les marqueurs
+            if (hospitals.length > 0) {
+                const bounds = L.latLngBounds(hospitals.map(h => [h.latitude, h.longitude]));
+                map.fitBounds(bounds);
+            }
+        }
+        
+        // Afficher les résultats
+        function displayResults(hospitals) {
+            // Supprimer les anciens marqueurs
+            markers.forEach(m => map.removeLayer(m));
+            markers = [];
+            
+            const resultsList = document.getElementById('resultsList');
+            
+            if (hospitals.length === 0) {
+                resultsList.innerHTML = '<p style="color: #999;">Aucun hôpital trouvé</p>';
+                return;
+            }
+            
+            resultsList.innerHTML = `<p style="color: #667eea; font-weight: bold; margin-bottom: 10px;">
+                ${hospitals.length} établissement(s) trouvé(s)
+            </p>`;
+            
+            hospitals.forEach(hospital => {
+                // Ajouter marqueur sur la carte
+                const marker = L.marker([hospital.latitude, hospital.longitude], {
+                    icon: L.icon({
+                        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                        iconSize: [25, 41],
+                        iconAnchor: [12, 41]
+                    })
+                }).addTo(map);
+                
+                marker.bindPopup(`
+                    <b>${hospital.name || 'Sans nom'}</b><br>
+                    Type: ${hospital.type || 'Non défini'}<br>
+                    ${hospital.street ? `Rue: ${hospital.street}<br>` : ''}
+                    ${hospital.distance ? `Distance: ${Math.round(hospital.distance)}m` : ''}
+                `);
+                
+                markers.push(marker);
+                
+                // Ajouter carte dans la liste
+                const card = document.createElement('div');
+                card.className = 'hospital-card';
+                card.onclick = () => {
+                    map.setView([hospital.latitude, hospital.longitude], 16);
+                    marker.openPopup();
+                };
+                
+                card.innerHTML = `
+                    <div class="hospital-name">${hospital.name || 'Établissement ' + (hospital.id || '')}</div>
+                    <div class="hospital-info">
+                        <span class="badge">${hospital.type || 'Non défini'}</span>
+                    </div>
+                    ${hospital.distance ? 
+                        `<div class="hospital-info">📏 ${Math.round(hospital.distance)}m (${Math.round(hospital.distance/80)} min à pied)</div>` 
+                        : ''}
+                    ${hospital.street ? 
+                        `<div class="hospital-info">📍 ${hospital.street}</div>` 
+                        : ''}
+                `;
+                
+                resultsList.appendChild(card);
+            });
+        }
+        
+        // Charger tous les hôpitaux au démarrage
+        showAll();
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Erreur - Hospital Finder Fès{% endblock %}
+
+{% block content %}
+<div class="container">
+    <header>
+        <h1>⚠️ Erreur</h1>
+        <p>Une erreur est survenue</p>
+    </header>
+    
+    <div class="card">
+        <h2>Détails de l'erreur</h2>
+        <p style="color: #c62828; background: #ffebee; padding: 15px; border-radius: 8px; margin-top: 15px;">
+            {{ error }}
+        </p>
+        
+        <h3 style="margin-top: 20px;">Solutions possibles :</h3>
+        <ul style="margin-top: 10px; padding-left: 20px; line-height: 2;">
+            <li>Vérifiez que <strong>Neo4j Desktop</strong> est lancé et que la base est active</li>
+            <li>Vérifiez les paramètres de connexion dans <code>config.py</code></li>
+            <li>Exécutez <code>python auto_import.py</code> pour importer les données</li>
+            <li>Testez la connexion : <a href="/test-connection">/test-connection</a></li>
+        </ul>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="/" class="btn">Retour à l'accueil</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

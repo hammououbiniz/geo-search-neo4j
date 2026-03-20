@@ -1,0 +1,22 @@
+name,lat,lon,type,capacity,rating
+Clinique al kawtar,34.028784,-4.992644,Clinic,220,3.1
+Clinique ben moussa,34.0298,-4.9982,Clinic,800,4.5
+Clinique boudali,34.0294,-4.9961,Clinic,30,2.9
+Clinique de fes,34.0285,-4.995,Clinic,170,0.8
+Clinique des specialites ryad,34.0305,-4.9965,Clinic,NULL,0.8
+Clinique el hitmi,34.0326,-4.993,Clinic,NULL,3.5
+Clinique qaraouiyine,34.03056,-4.996111,Clinic,NULL,3.8
+Clinique raiss,34.028475,-4.997575,Clinic,30,3
+Clinique saada,34.0298,-4.9928,Clinic,NULL,3.1
+Clinique maternite hadj abdelhadi tajmouati,34.0531,-4.9749,Clinic,NULL,3.6
+Clinique tahiri yahia,34.0305,-4.9965,Clinic,NULL,4
+Clinique ste civile professionnelle de radiologie atlas,34.026,-4.991,Clinic,NULL,2.1
+Clinique slaiki,34.035,-4.996,Clinic,NULL,4.4
+Clinique polyclinique atlas,34.026,-4.991,Hospital,NULL,2.1
+CHU Hassan II,33.9961,-4.9547,Hospital,900,NULL
+Hopital International de Fes Akdital,33.9686,-4.9969,Hospital,170,4
+Hopital Ghassani,34.0298,-4.9782,Hospital,300,NULL
+Hopital Ibn Al Khatib Cocu,34.0701,-4.9953,Hospital,200,NULL
+Centre International d Oncologie,33.9686,-4.9969,Hospital,NULL,NULL
+Hopital Omar El Idrissi,34.0625,-4.975,Hospital,47,NULL
+Hopital Ibn Al Hassan Psychiatrie,33.9961,-4.9547,Hospital,68,NULL
